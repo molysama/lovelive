@@ -58,3 +58,7 @@ fi
 export PATH
 
 ```
+
+##常见错误
+###no accepttable C compile found in path  
+解决办法：sudo apt-get install gcc

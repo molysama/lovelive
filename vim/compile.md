@@ -47,7 +47,7 @@ make distclean
 ```
 
 ##添加搜索路径
-
+```
 vi /etc/profile
 
 if [ "`id -u`" -eq 0 ]; then

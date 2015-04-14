@@ -44,9 +44,10 @@ sudo make install
 在./configure之前执行如下代码
 ```
 make distclean
+```
 
 ##添加搜索路径
-```
+
 vi /etc/profile
 
 if [ "`id -u`" -eq 0 ]; then

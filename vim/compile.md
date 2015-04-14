@@ -60,7 +60,11 @@ export PATH
 
 ##常见错误及解决办法
 no accetable C compile found in path  
-```sudo apt-get install gcc```  
+```
+sudo apt-get install gcc
+```  
 
 you need to install a terminal library:for example ncurses  
-```sudo apt-get install libncurses5-dev```
+```
+sudo apt-get install libncurses5-dev
+```

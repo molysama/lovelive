@@ -36,9 +36,10 @@ cd vim-7.4/src
 --enable-gui=gtk2：gtk2支持,也可以使用gnome，表示生成gvim  
 
 ##编译
+```
 sudo make
 sudo make install
-
+```
 ##重新编译
 在./configure之前执行如下代码
 ```

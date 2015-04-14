@@ -18,7 +18,7 @@ cd vim-7.4/src
 
 ##添加参数
 ```
-./configure --prefix=/usr/local/vim74 --with-features=huge --enable-pythoninterp --enable-pythoninterp3 --enable-perlinterp --enable-rubyinterp --enable-luainterp --enable-multibyte --enable-sniff --enable-fontset --with-features=huge --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-luainterp --enable-multibyte --enable-sniff --enable-cscope
+./configure --prefix=/usr/local/vim74 --with-features=huge --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-luainterp --enable-multibyte --enable-sniff --enable-fontset --with-features=huge --enable-pythoninterp --enable-perlinterp --enable-rubyinterp --enable-luainterp --enable-multibyte --enable-sniff --enable-cscope
 ```
 
 ##参数说明
@@ -26,7 +26,6 @@ cd vim-7.4/src
 --prefix=/usr/local/vim74:编译安装路径  
 --with-features=huge：支持最大特性  
 --enable-pythoninterp：启用Vim对python编写的插件的支持  
---enable-pythoninterp：启用Vim对python3编写的插件的支持  
 --enable-perlinterp：启用Vim对perl编写的插件的支持  
 --enable-rubyinterp：启用Vim对ruby编写的插件的支持  
 --enable-luainterp：启用Vim对lua编写的插件的支持  
@@ -63,5 +62,5 @@ export PATH
 no accetable C compile found in path  
 ```sudo apt-get install gcc```  
 
-you need to install a terminal library:for example ncurses
+you need to install a terminal library:for example ncurses  
 ```sudo apt-get install libncurses5-dev```

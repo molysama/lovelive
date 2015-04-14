@@ -59,6 +59,6 @@ export PATH
 
 ```
 
-##常见错误
-###no accepttable C compile found in path  
-解决办法：sudo apt-get install gcc
+##常见错误及解决办法
+no accetableC compile found in path  
+```sudo apt-get install gcc```
